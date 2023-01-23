@@ -1,0 +1,138 @@
+#title:hover::after{
+	content: attr(data-title);
+	position: absolute;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.7);
+	left: 0px;
+	top: 85%;
+	height: 50px;
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: rgb(255, 255, 255);
+}
+
+
+.APP{
+	width: 400px;
+	height: 600px;
+	border-radius: 16px;
+	position: relative;
+	margin:  0 auto;
+	background: linear-gradient(135deg,#f9d423,#e14fad);
+	/*background: linear-gradient(135deg,#f9d423,#e14fad); EECFBA C5DDE8*/
+	--background-color: #85FFBD;
+	--background-image: linear-gradient(45deg, #EECFBA 0%, #85FFBD 100%);
+
+	--background-color: #FBAB7E;
+	--background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+
+}
+
+.item{
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons{
+	margin: 10px;
+	padding: 16px;
+	display: block;
+	background: rgba(255, 255, 255, 0.3);
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: rgb(30, 30, 30);
+	border-radius: 12px;
+	user-select: none;
+
+}
+
+.buttons:hover{
+	background: rgba(100, 100, 100, 0.3);
+}
+
+.infobar{
+	margin: 10px;
+	padding: 16px;
+	display: block;
+	background: rgba(100, 100, 100, 0.3);
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	border-radius: 4px;
+}
+
+.panel{
+	margin: 0px;
+	padding: 16px;
+	display: block;
+	background: rgba(100, 100, 100, 0.3);
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-decoration: none;
+	
+	border-radius: 4px;
+}
+
+.panel_buttons{
+	margin: 0 auto;
+	padding: 16px;
+	width: 80px;
+	display: block;
+	background: rgba(255, 255, 255, 0.3);
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: rgb(30, 30, 30);
+
+	user-select: none;
+
+}
+
+.panel_buttons:hover{
+	background: rgba(100, 100, 100, 0.3);
+}
+
+.buy_buttons{
+	background: rgba(150, 255, 150, 0.9);
+	margin: 10px;
+	padding: 16px;
+	display: block;
+	color: rgb(50, 50, 50);
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px;
+	text-decoration: none;
+	border-radius: 12px;
+	user-select: none;
+
+}
+
+.buy_buttons:hover{
+	background: rgba(150, 255, 150, 0.5);
+}
+
+
+
+#coin {
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+}
+
+
+.button_click:hover{
+	--background: rgba(255, 255, 255, 0.3);
+	--border-radius: 50%;
+}
